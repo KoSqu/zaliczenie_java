@@ -1,4 +1,4 @@
-package test.java;
+package Calculator;
 
 import calculator.Calculator;
 import org.junit.Before;
