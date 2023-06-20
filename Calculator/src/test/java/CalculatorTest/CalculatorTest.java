@@ -1,3 +1,5 @@
+package CalculatorTest;
+
 import org.example.App.Calculator.AdvancedCalculator;
 import org.junit.Before;
 import org.junit.Test;
