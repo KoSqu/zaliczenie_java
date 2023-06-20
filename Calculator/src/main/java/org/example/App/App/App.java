@@ -1,6 +1,6 @@
 package org.example.App.App;
 
-import org.example.App.Calculator.Calculator;
+import org.example.App.Calculator.AdvancedCalculator;
 import java.util.Scanner;
 
 public class App {
@@ -13,17 +13,20 @@ public class App {
         System.out.print("Podaj drugą liczbę: ");
         int num2 = scanner.nextInt();
 
-        Calculator calculator = new Calculator();
+        AdvancedCalculator calculator = new AdvancedCalculator();
 
         System.out.println("Wybierz operację:");
         System.out.println("1. Dodawanie");
         System.out.println("2. Odejmowanie");
         System.out.println("3. Mnożenie");
         System.out.println("4. Dzielenie");
+        System.out.println("5. Potęgowanie");
+        System.out.println("6. Pierwiastek kwadratowy pierwszej liczby");
+        System.out.println("7. Silnia pierwszej liczby");
         System.out.print("Twój wybór: ");
         int operation = scanner.nextInt();
 
-        int result = 0;
+        double result = 0;
 
         switch (operation) {
             case 1:
@@ -44,6 +47,22 @@ public class App {
                     System.out.println("Wynik dzielenia: " + result);
                 } else {
                     System.out.println("Nie można dzielić przez zero!");
+                }
+                break;
+            case 5:
+                result = calculator.power(num1, num2);
+                System.out.println("Wynik potęgowania: " + result);
+                break;
+            case 6:
+                result = calculator.squareRoot(num1);
+                    System.out.println("Wynik obliczania pierwiastka kwadratowego z pierwszej liczby: " + result);
+                break;
+            case 7:
+                try {
+                    result = calculator.factorial(num1);
+                    System.out.println("Wynik obliczenia silni pierwszej liczby: " + result);
+                } catch (IllegalArgumentException e) {
+                    System.out.println(e.getMessage());
                 }
                 break;
             default:

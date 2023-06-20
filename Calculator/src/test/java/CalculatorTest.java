@@ -1,4 +1,4 @@
-import org.example.App.Calculator.Calculator;
+import org.example.App.Calculator.AdvancedCalculator;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -6,11 +6,11 @@ import static org.junit.Assert.*;
 
 public class CalculatorTest {
 
-    private Calculator calculator;
+    private AdvancedCalculator calculator;
 
     @Before
     public void setUp() {
-        calculator = new Calculator();
+        calculator = new AdvancedCalculator();
     }
 
     @Test
@@ -40,5 +40,11 @@ public class CalculatorTest {
     @Test(expected = IllegalArgumentException.class)
     public void testDivisionByZero() {
         calculator.divide(10, 0);
+    }
+
+    @Test
+    public void testFactorial() {
+        int result = calculator.factorial(5);
+        assertEquals(120, result);
     }
 }
