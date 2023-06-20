@@ -1,6 +1,6 @@
-package org.example.App.App;
+package Application.App;
 
-import org.example.App.Calculator.AdvancedCalculator;
+import Application.Calculator.AdvancedCalculator;
 import java.util.Scanner;
 
 public class App {

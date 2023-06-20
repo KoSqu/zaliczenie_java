@@ -1,4 +1,4 @@
-package org.example.App.Calculator;
+package Application.Calculator;
 
 public class AdvancedCalculator extends Calculator {
 
