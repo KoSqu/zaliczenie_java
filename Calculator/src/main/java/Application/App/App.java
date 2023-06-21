@@ -2,8 +2,13 @@ package Application.App;
 
 import Application.Calculator.AdvancedCalculator;
 import java.util.Scanner;
-
+/**
+ * Klasa kalkulatora
+ */
 public class App {
+    /**
+     * Metoda główna uruchamiająca kalkulator
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -66,7 +71,7 @@ public class App {
                 }
                 break;
             default:
-                System.out.println("Nieprawidłowy wybór operacji.");
+                System.out.println("Zły wybór operacji");
                 break;
         }
     }
