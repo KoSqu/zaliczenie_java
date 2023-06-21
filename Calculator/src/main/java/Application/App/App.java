@@ -8,7 +8,10 @@ import java.util.Scanner;
 public class App {
 
     /**
-     * Podanie dwóch liczb przez użytkownika i wybranie działania
+     * Metoda główna uruchamiająca kalkulator
+    /**
+    
+     * Podanie dwóch liczb przez użytkownika i wybranie działani
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -70,8 +73,15 @@ public class App {
                 } catch (IllegalArgumentException e) {
                     System.out.println(e.getMessage());
                 }
+
+                break;
+            default:
+                System.out.println("Zły wybór operacji");
+                break;
+
             }
             default -> System.out.println("Nieprawidłowy wybór operacji.");
+
         }
     }
 }
