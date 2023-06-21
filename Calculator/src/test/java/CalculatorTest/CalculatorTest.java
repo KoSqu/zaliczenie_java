@@ -17,8 +17,8 @@ public class CalculatorTest {
 
     @Test
     public void testAddition() {
-        int result = calculator.add(2, 3);
-        assertEquals(5, result);
+        int result = calculator.add(5, 5);
+        assertEquals(10, result);
     }
 
     @Test
@@ -29,14 +29,14 @@ public class CalculatorTest {
 
     @Test
     public void testMultiplication() {
-        int result = calculator.multiply(4, 5);
-        assertEquals(20, result);
+        int result = calculator.multiply(3, 4);
+        assertEquals(12, result);
     }
 
     @Test
     public void testDivision() {
-        int result = calculator.divide(10, 2);
-        assertEquals(5, result);
+        int result = calculator.divide(8, 2);
+        assertEquals(4, result);
     }
 
     @Test(expected = IllegalArgumentException.class)
