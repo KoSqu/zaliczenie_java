@@ -9,6 +9,10 @@ public class App {
     /**
      * Metoda główna
      */
+
+    /**
+     * Podanie dwóch liczb przez użytkownika i wybranie operacji
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
