@@ -2,8 +2,13 @@ package Application.App;
 
 import Application.Calculator.AdvancedCalculator;
 import java.util.Scanner;
-
+/**
+ * Klasa kalkulatora
+ */
 public class App {
+    /**
+     * Metoda główna
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
