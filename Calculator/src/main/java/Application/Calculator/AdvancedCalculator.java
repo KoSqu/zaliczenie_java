@@ -21,7 +21,7 @@ public class AdvancedCalculator extends Calculator {
      * @return wynik silni
      * @throws IllegalArgumentException jeśli liczba jest ujemna
      */
-    public int factorial(int number) {
+    public int factorial(double number) {
         if (number < 0) {
             throw new IllegalArgumentException("Liczba musi być nieujemna");
         }

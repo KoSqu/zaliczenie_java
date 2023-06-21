@@ -26,8 +26,8 @@ public class CalculatorTest {
      */
     @Test
     public void testAddition() {
-        int result = calculator.add(5, 5);
-        assertEquals(10, result);
+        double result = calculator.add(5, 5);
+        assertEquals(10, result, 0);
     }
 
     /**
@@ -35,8 +35,8 @@ public class CalculatorTest {
      */
     @Test
     public void testSubtraction() {
-        int result = calculator.subtract(5, 3);
-        assertEquals(2, result);
+        double result = calculator.subtract(5, 3);
+        assertEquals(2, result, 0);
     }
 
     /**
@@ -44,8 +44,8 @@ public class CalculatorTest {
      */
     @Test
     public void testMultiplication() {
-        int result = calculator.multiply(3, 4);
-        assertEquals(12, result);
+        double result = calculator.multiply(3, 4);
+        assertEquals(12, result, 0);
     }
 
     /**
@@ -53,8 +53,8 @@ public class CalculatorTest {
      */
     @Test
     public void testDivision() {
-        int result = calculator.divide(8, 2);
-        assertEquals(4, result);
+        double result = calculator.divide(8, 2);
+        assertEquals(4, result, 0);
     }
 
     /**
