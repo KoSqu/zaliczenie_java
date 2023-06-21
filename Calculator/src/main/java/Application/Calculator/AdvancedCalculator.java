@@ -5,7 +5,7 @@ package Application.Calculator;
 public class AdvancedCalculator extends Calculator {
 
     /**
-     * Potęga liczby podniesionej do określonego wykładnika.
+     * Potęga liczby podniesionej do określonego wykładnika
      *
      * @param base     podstawa potęgi
      * @param exponent wykładnik potęgi
@@ -23,7 +23,7 @@ public class AdvancedCalculator extends Calculator {
      */
     public int factorial(int number) {
         if (number < 0) {
-            throw new IllegalArgumentException("Liczba musi być nieujemna.");
+            throw new IllegalArgumentException("Liczba musi być nieujemna");
         }
 
         int result = 1;
@@ -34,7 +34,7 @@ public class AdvancedCalculator extends Calculator {
         return result;
     }
     /**
-     * Pierwiastek kwadratowy z danej liczby.
+     * Pierwiastek kwadratowy z danej liczby
      *
      * @param number liczba, dla której obliczany jest pierwiastek kwadratowy
      * @return wynik pierwiastkowania
@@ -42,7 +42,7 @@ public class AdvancedCalculator extends Calculator {
      */
     public double squareRoot(double number) {
         if (number < 0) {
-            throw new IllegalArgumentException("Liczba musi być nieujemna.");
+            throw new IllegalArgumentException("Liczba musi być nieujemna");
         }
 
         return Math.sqrt(number);
