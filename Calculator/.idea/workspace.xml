@@ -46,7 +46,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application.App.App">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App.App.App" />
       <module name="Calculator" />
@@ -94,8 +94,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application.App.App" />
         <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="Application.Application.App.App" />
         <item itemvalue="JUnit.CalculatorTest.testFactorial" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.CalculatorTest" />
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687361514466</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1.3">
+      <created>1687366943558</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687366943558</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
